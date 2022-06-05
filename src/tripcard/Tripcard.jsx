@@ -165,7 +165,6 @@ export default function Mihalanding() {
                         component="img"
                         height="380"
                         image= {rice}
-                        onClick={()=> window.open("https://hematopoietic.bluesphere.bio/", "_self")}
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div" style = {{fontWeight: 600}}>
