@@ -1,11 +1,13 @@
 import * as React from 'react';
 import ReactStars from 'react-stars';
+import './Tripcard_raw.css';
 import Card from '@mui/material/Card';
 import styled from "styled-components";
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+
 import randyland from '../assets/IMG195.jpg';
 import nightviewnown from '../assets/IMG196.jpg';
 import roll from '../assets/IMG197.jpg';
@@ -13,7 +15,8 @@ import rockroll from '../assets/IMG198.jpg';
 import chicago from '../assets/IMG199.jpg';
 import rice from '../assets/IMG200.jpg';
 
-export default function Mihalanding() {
+
+export default function Trip() {
 
     const CardSection = styled.div`
         display: flex;
@@ -24,13 +27,12 @@ export default function Mihalanding() {
     const ratingChanged = (newRating) => {
         console.log(newRating)
       }
-      
 
   return (
       <div>
         <CardSection>
             <Card sx={{ maxWidth: 380,  height: 550, m: 10}} >
-                <CardActionArea>
+                <CardActionArea >
                     <CardMedia
                     component="img"
                     height="380"
@@ -54,7 +56,6 @@ export default function Mihalanding() {
                     </CardContent>
                 </CardActionArea>
             </Card>
-
             <Card sx={{ maxWidth: 380,  height: 550, m: 10}} >
                 <CardActionArea>
                     <CardMedia
@@ -87,6 +88,7 @@ export default function Mihalanding() {
                     component="img"
                     height="380"
                     image= {roll}
+                    className = "card-image"
                     />
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div" style = {{fontWeight: 600}}>
@@ -185,6 +187,8 @@ export default function Mihalanding() {
                 </CardActionArea>
             </Card>
         </CardSection>
+
+
   </div>
   );
 }

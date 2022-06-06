@@ -1,11 +1,11 @@
 
 import './App.css';
-import Mihalanding from './tripcard/Tripcard';
+import Card_3DCSS from './component/card/Card';
 
 function App() {
   return (
     <div className="App">
-      <Mihalanding />
+      <Card_3DCSS />
     </div>
   );
 }
