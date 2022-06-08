@@ -1,5 +1,5 @@
 import * as React from 'react';
-import GlassCard from '../card3d/Card3d';
+import Cardinstruction from '../cardinstruction/Cardinstruction';
 import styled from "styled-components";
 import Box from '@mui/material/Box';
 import Tab from '@mui/material/Tab';
@@ -33,15 +33,14 @@ export default function Card_3DCSS() {
         <TabContext value={value}>
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                 <TabList onChange={handleChange} aria-label="lab API tabs example" style={{background: 'white'}}>
-                    <Tab label="Item 1" value="1" />
-                    <Tab label="Item 2" value="2" />
-                    
+                    <Tab label="Card Instruction" value="1" />
+                    <Tab label="Card Gallery" value="2" />
                 </TabList>
             </Box>
             <TabPanel value="1" style={{background: 'white'}}>
-                <GlassCard />
+                <Cardinstruction />
             </TabPanel>
-            <TabPanel value="2">
+            <TabPanel value="2" style = {{background: '#282c34'}}>
                 <Trip />
             </TabPanel>
         </TabContext>

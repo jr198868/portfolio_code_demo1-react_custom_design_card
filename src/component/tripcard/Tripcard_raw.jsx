@@ -39,15 +39,16 @@ export default function Trip() {
   return (
       <div>
         <CardSection>
-            <Card sx={{ maxWidth: 380,  height: 550, m: 10}} >
+            <Card sx={{ maxWidth: 380,  height: 550, m: 10, boxShadow: '0 26px 70px -12.125px rgba(0,0,0,0.3)'}} >
                 <CardActionArea >
                     <CardMedia
                     component="img"
                     height="380"
                     image= {nightviewnown}
+                    sx={{ boxShadow: 3 }}
                     />
                     <CardContent>
-                    <Typography gutterBottom variant="h5" component="div" style = {{fontWeight: 600}}>
+                    <Typography gutterBottom variant="h5" component="div" style = {{fontWeight: 600, color: "#2fc9e2"}}>
                         Pittsburgh's Night View in Mt. Washington
                         <div style = {{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                             <ReactStars
@@ -64,12 +65,13 @@ export default function Trip() {
                     </CardContent>
                 </CardActionArea>
             </Card>
-            <Card sx={{ maxWidth: 380,  height: 550, m: 10}} >
+            <Card sx={{ maxWidth: 380,  height: 550, m: 10, boxShadow: '0 26px 70px -12.125px rgba(0,0,0,0.3)'}} >
                 <CardActionArea>
                     <CardMedia
                     component="img"
                     height="380"
                     image= {randyland}
+                    sx={{ boxShadow: 3 }}
                     />
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div" style = {{fontWeight: 600}}>
@@ -90,13 +92,13 @@ export default function Trip() {
                 </CardActionArea>
             </Card>
 
-            <Card sx={{ maxWidth: 380,  height: 550, m: 10}} >
+            <Card sx={{ maxWidth: 380,  height: 550, m: 10, boxShadow: '0 26px 70px -12.125px rgba(0,0,0,0.3)'}} >
                 <CardActionArea>
                     <CardMedia
                     component="img"
                     height="380"
                     image= {roll}
-                    className = "card-image"
+                    sx={{ boxShadow: 3 }}
                     />
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div" style = {{fontWeight: 600}}>
@@ -117,12 +119,13 @@ export default function Trip() {
                 </CardActionArea>
             </Card>
 
-            <Card sx={{ maxWidth: 380,  height: 550, m: 10}} >
+            <Card sx={{ maxWidth: 380,  height: 550, m: 10, boxShadow: '0 26px 70px -12.125px rgba(0,0,0,0.3)'}} >
                 <CardActionArea>
                     <CardMedia
                         component="img"
                         height="380"
                         image= {chicago}
+                        sx={{ boxShadow: 3 }}
                     />
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div" style = {{fontWeight: 600}}>
@@ -143,12 +146,13 @@ export default function Trip() {
                 </CardActionArea>
             </Card>
 
-            <Card sx={{ maxWidth: 380,  height: 550, m: 10}} >
+            <Card sx={{ maxWidth: 380,  height: 550, m: 10, boxShadow: '0 26px 70px -12.125px rgba(0,0,0,0.3)'}} >
                 <CardActionArea>
                     <CardMedia
                         component="img"
                         height="380"
                         image= {rockroll}
+                        sx={{ boxShadow: 3 }}
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div" style = {{fontWeight: 600}}>
@@ -169,12 +173,13 @@ export default function Trip() {
                 </CardActionArea>
             </Card>
 
-            <Card sx={{ maxWidth: 380,  height: 550, m: 10}} >
+            <Card sx={{ maxWidth: 380,  height: 550, m: 10, boxShadow: '0 26px 70px -12.125px rgba(0,0,0,0.3)'}} >
                 <CardActionArea>
                     <CardMedia
                         component="img"
                         height="380"
                         image= {rice}
+                        sx={{ boxShadow: 3 }}
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div" style = {{fontWeight: 600}}>
