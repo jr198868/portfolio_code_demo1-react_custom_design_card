@@ -15,6 +15,14 @@ import rockroll from '../assets/IMG198.jpg';
 import chicago from '../assets/IMG199.jpg';
 import rice from '../assets/IMG200.jpg';
 
+import Box from '@mui/material/Box';
+import Tab from '@mui/material/Tab';
+import TabContext from '@mui/lab/TabContext';
+import TabList from '@mui/lab/TabList';
+import TabPanel from '@mui/lab/TabPanel';
+
+
+
 
 export default function Trip() {
 

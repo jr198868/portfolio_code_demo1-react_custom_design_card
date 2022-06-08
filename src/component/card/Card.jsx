@@ -1,4 +1,5 @@
 import * as React from 'react';
+import GlassCard from '../card3d/Card3d';
 import styled from "styled-components";
 import Box from '@mui/material/Box';
 import Tab from '@mui/material/Tab';
@@ -37,7 +38,9 @@ export default function Card_3DCSS() {
                     
                 </TabList>
             </Box>
-            <TabPanel value="1" style={{background: 'white'}}>Item One</TabPanel>
+            <TabPanel value="1" style={{background: 'white'}}>
+                <GlassCard />
+            </TabPanel>
             <TabPanel value="2">
                 <Trip />
             </TabPanel>
