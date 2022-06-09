@@ -48,7 +48,7 @@ export default function Trip() {
                     sx={{ boxShadow: 3 }}
                     />
                     <CardContent>
-                    <Typography gutterBottom variant="h5" component="div" style = {{fontWeight: 600, color: "#2fc9e2"}}>
+                    <Typography gutterBottom variant="h5" component="div" style = {{fontWeight: 600}}>
                         Pittsburgh's Night View in Mt. Washington
                         <div style = {{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                             <ReactStars
